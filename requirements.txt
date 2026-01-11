@@ -1,26 +1,22 @@
-# Minimal requirements for Render deployment
-# Use this if PyMuPDF fails to build
-
 # Core Dependencies
 python-dotenv==1.0.0
 
-# PDF Processing - Lightweight alternative
-pypdf==3.17.0
+# PDF Processing - Use pre-built wheel
+PyMuPDF==1.24.0
 
 # Image Processing
 Pillow==10.1.0
 pytesseract==0.3.10
 
-# Deep Learning & Transformers (CPU only for free tier)
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.1.2+cpu
-torchvision==0.16.2+cpu
+# Deep Learning & Transformers
+torch==2.1.2
+torchvision==0.16.2
 transformers==4.36.2
 
 # Vector Store & Embeddings
 faiss-cpu==1.7.4
 
-# LangChain Components
+# LangChain Components - Updated versions
 langchain==0.1.20
 langchain-community==0.0.38
 langchain-core==0.1.52
@@ -45,3 +41,6 @@ typing-extensions==4.9.0
 # Additional Utilities
 pydantic==2.5.3
 pydantic-settings==2.0.3
+
+# OPTIONAL: If still having issues with PyMuPDF, use pypdf instead
+# pypdf==3.17.0
