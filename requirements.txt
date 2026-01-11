@@ -8,7 +8,7 @@ PyMuPDF==1.24.14
 Pillow==11.0.0
 pytesseract==0.3.13
 
-# PyTorch (Python 3.13 compatible)
+# PyTorch (CPU, Python 3.13)
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.6.0
 torchvision==0.21.0
@@ -17,7 +17,7 @@ torchvision==0.21.0
 transformers==4.46.3
 
 # Vector Store
-faiss-cpu==1.9.0
+faiss-cpu==1.13.2
 
 # LangChain
 langchain==0.3.13
