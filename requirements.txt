@@ -19,10 +19,9 @@ transformers==4.46.3
 # Vector Store
 faiss-cpu==1.13.2
 
-# LangChain
+# LangChain (DO NOT pin core)
 langchain==0.3.13
 langchain-community==0.3.13
-langchain-core==0.3.23
 langchain-text-splitters==0.3.2
 langchain-groq==0.2.1
 
