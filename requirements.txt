@@ -1,0 +1,65 @@
+# Core Dependencies
+python-dotenv==1.0.0
+
+# PDF Processing
+PyMuPDF==1.23.8
+
+# Image Processing
+Pillow==10.1.0
+pytesseract==0.3.10
+
+# Deep Learning & Transformers
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.36.2
+
+# AI Models
+clip-by-openai==1.0
+sentence-transformers==2.2.2
+
+# Vector Store & Embeddings
+faiss-cpu==1.7.4
+# OR for GPU support (choose one):
+# faiss-gpu==1.7.4
+
+# LangChain Components
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-core==0.1.10
+langchain-text-splitters==0.0.1
+langchain-groq==0.0.1
+
+# LangGraph
+langgraph==0.0.20
+
+# LLM Integration
+groq==0.4.1
+
+# FastAPI & Web Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Data Processing
+numpy==1.26.3
+typing-extensions==4.9.0
+
+# Database
+sqlite3
+# Note: sqlite3 is built into Python, no need to install
+
+# Additional Utilities
+pydantic==2.5.3
+python-dateutil==2.8.2
+
+# CORS Support
+# Included in fastapi
+
+# Optional: For better performance
+# accelerate==0.25.0
+# bitsandbytes==0.41.3
+
+# Development Tools (Optional)
+# pytest==7.4.3
+# black==23.12.1
+# flake8==7.0.0
