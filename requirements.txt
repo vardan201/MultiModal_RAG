@@ -1,23 +1,25 @@
-# Core Dependencies
+# Core
 python-dotenv==1.0.1
 
-# PDF Processing - Compatible with Python 3.13
+# PDF
 PyMuPDF==1.24.14
 
-# Image Processing - Python 3.13 compatible
+# Image
 Pillow==11.0.0
 pytesseract==0.3.13
 
-# Deep Learning & Transformers - Python 3.13 compatible
+# PyTorch (Python 3.13 compatible)
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.5.1
-torchvision==0.20.1
+torch==2.6.0
+torchvision==0.21.0
+
+# Transformers
 transformers==4.46.3
 
-# Vector Store & Embeddings
+# Vector Store
 faiss-cpu==1.9.0
 
-# LangChain Components - Latest compatible versions
+# LangChain
 langchain==0.3.13
 langchain-community==0.3.13
 langchain-core==0.3.23
@@ -27,18 +29,18 @@ langchain-groq==0.2.1
 # LangGraph
 langgraph==0.2.55
 
-# LLM Integration
+# LLM
 groq==0.13.0
 
-# FastAPI & Web Server
+# FastAPI
 fastapi==0.115.6
 uvicorn[standard]==0.34.0
 python-multipart==0.0.18
 
-# Data Processing
+# Data
 numpy==2.2.1
 typing-extensions==4.12.2
 
-# Additional Utilities
+# Pydantic
 pydantic==2.10.3
 pydantic-settings==2.7.0
