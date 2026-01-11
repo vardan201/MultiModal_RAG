@@ -1,0 +1,9 @@
+tesseract-ocr
+tesseract-ocr-eng
+libtesseract-dev
+libleptonica-dev
+pkg-config
+libfreetype6-dev
+libjpeg-dev
+libpng-dev
+zlib1g-dev
