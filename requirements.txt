@@ -1,46 +1,44 @@
 # Core Dependencies
-python-dotenv==1.0.0
+python-dotenv==1.0.1
 
-# PDF Processing - Use pre-built wheel
-PyMuPDF==1.24.0
+# PDF Processing - Compatible with Python 3.13
+PyMuPDF==1.24.14
 
-# Image Processing
-Pillow==10.1.0
-pytesseract==0.3.10
+# Image Processing - Python 3.13 compatible
+Pillow==11.0.0
+pytesseract==0.3.13
 
-# Deep Learning & Transformers
-torch==2.1.2
-torchvision==0.16.2
-transformers==4.36.2
+# Deep Learning & Transformers - Python 3.13 compatible
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.46.3
 
 # Vector Store & Embeddings
-faiss-cpu==1.7.4
+faiss-cpu==1.9.0
 
-# LangChain Components - Updated versions
-langchain==0.1.20
-langchain-community==0.0.38
-langchain-core==0.1.52
-langchain-text-splitters==0.0.1
-langchain-groq==0.1.6
+# LangChain Components - Latest compatible versions
+langchain==0.3.13
+langchain-community==0.3.13
+langchain-core==0.3.23
+langchain-text-splitters==0.3.2
+langchain-groq==0.2.1
 
 # LangGraph
-langgraph==0.0.55
+langgraph==0.2.55
 
 # LLM Integration
-groq==0.9.0
+groq==0.13.0
 
 # FastAPI & Web Server
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-python-multipart==0.0.6
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.18
 
 # Data Processing
-numpy==1.26.3
-typing-extensions==4.9.0
+numpy==2.2.1
+typing-extensions==4.12.2
 
 # Additional Utilities
-pydantic==2.5.3
-pydantic-settings==2.0.3
-
-# OPTIONAL: If still having issues with PyMuPDF, use pypdf instead
-# pypdf==3.17.0
+pydantic==2.10.3
+pydantic-settings==2.7.0
