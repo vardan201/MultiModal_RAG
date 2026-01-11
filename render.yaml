@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: multimodal-rag-api
+    env: python
+    region: oregon
+    plan: free  # Change to 'starter' or higher for production
+    buildCommand: |
+      pip install --upgrade pip setuptools wheel
+      pip install --no-cache-dir -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false  # Set this manually in Render dashboard
+      - key: PYTHON_VERSION
+        value: 3.11.9
+    autoDeploy: true
